@@ -137,7 +137,7 @@ def main():
                     processing_status = st.session_state.processing_tasks.get(i)
                     
                     # 润色按钮
-                    if st.button("润色", key=f"process_{i}", 
+                    if st.button("✨ 魔法润色", key=f"process_{i}", 
                                disabled=processing_status == 'processing'):
                         st.session_state.processing_tasks[i] = 'processing'
                         # 启动处理
