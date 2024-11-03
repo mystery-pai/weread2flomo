@@ -142,7 +142,7 @@ def main():
                         st.session_state.processing_tasks[i] = 'processing'
                         # 启动处理
                         process_single_note(note, i)
-                        st.rerun()
+                        st.experimental_rerun()
                     
                     # 显示处理状态
                     if processing_status == 'processing':
