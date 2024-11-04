@@ -30,8 +30,8 @@
 
 1. 克隆此仓库：
    ```bash
-   git clone https://github.com/yourusername/wechat_notes_processor.git
-   cd wechat_notes_processor
+   git clone https://github.com/mystery-pai/weread2flomo.git
+   cd weread2flomo
    ```
 
 2. 创建虚拟环境：
